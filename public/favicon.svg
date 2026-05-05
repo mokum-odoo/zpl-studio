@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="gradBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5" /> <stop offset="100%" stop-color="#1e1b4b" /> </linearGradient>
+
+    <linearGradient id="inkGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#334155" />
+    </linearGradient>
+
+    <clipPath id="z-mask">
+      <path d="M 176 180 L 336 180 L 336 225 L 236 315 L 336 315 L 336 360 L 176 360 L 176 315 L 276 225 L 176 225 Z" />
+    </clipPath>
+  </defs>
+
+  <rect width="512" height="512" rx="112" fill="url(#gradBg)" />
+
+  <rect x="106" y="100" width="300" height="40" rx="20" fill="#020617" />
+  <rect x="126" y="110" width="260" height="10" rx="5" fill="#000000" opacity="0.5" />
+
+  <path d="M 146 115 L 366 115 L 366 410 Q 366 422 354 422 L 158 422 Q 146 422 146 410 Z" fill="#ffffff" />
+
+  <rect x="146" y="115" width="220" height="24" fill="#cbd5e1" opacity="0.6" />
+
+  <g clip-path="url(#z-mask)">
+    <rect x="176" y="180" width="160" height="24" fill="url(#inkGrad)" />
+    <rect x="176" y="212" width="160" height="12" fill="url(#inkGrad)" />
+    <rect x="176" y="232" width="160" height="16" fill="url(#inkGrad)" />
+    <rect x="176" y="256" width="160" height="24" fill="url(#inkGrad)" />
+    <rect x="176" y="288" width="160" height="12" fill="url(#inkGrad)" />
+    <rect x="176" y="308" width="160" height="20" fill="url(#inkGrad)" />
+    <rect x="176" y="336" width="160" height="24" fill="url(#inkGrad)" />
+  </g>
+</svg>

@@ -700,22 +700,11 @@ const App = () => {
           </div>
 
           {/* Footer Diagnostic Panel */}
-          <div className="p-4 bg-white/50 border-t border-slate-300 flex justify-between items-center z-10 backdrop-blur-lg">
-            <div className="flex gap-8">
-              <div className="space-y-1">
-                <span className="text-[8px] font-black text-slate-500 uppercase tracking-widest">Interface</span>
-                <div className="text-xs font-bold text-slate-700 flex items-center gap-2">
-                  <div className="w-2 h-2 rounded-full bg-indigo-500" /> VIRTUAL_COM4
-                </div>
-              </div>
-              <div className="space-y-1">
-                <span className="text-[8px] font-black text-slate-500 uppercase tracking-widest">Media</span>
-                <div className="text-xs font-bold text-slate-700">CONTINUOUS_THERMAL</div>
-              </div>
-            </div>
+          {/* Footer Panel */}
+          <div className="p-4 bg-white/50 border-t border-slate-300 flex justify-end items-center z-10 backdrop-blur-lg">
             <div className="text-right">
-              <span className="text-[8px] font-black text-slate-500 uppercase tracking-widest">Powered By</span>
-              <div className="text-[11px] font-black text-slate-400">LABELARY_2.0_ENGINE</div>
+              <span className="text-[8px] font-black text-slate-500 uppercase tracking-widest">Created By</span>
+              <div className="text-[11px] font-black text-slate-700">Mohan Kumar</div>
             </div>
           </div>
         </section>
